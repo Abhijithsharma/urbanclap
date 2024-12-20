@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/urbanclap/my-app/static/css/main.85f08cb8.css",
-    "main.js": "/urbanclap/my-app/static/js/main.daad9bf6.js",
+    "main.js": "/urbanclap/my-app/static/js/main.1390367f.js",
     "static/js/156.6a35e1a0.chunk.js": "/urbanclap/my-app/static/js/156.6a35e1a0.chunk.js",
     "index.html": "/urbanclap/my-app/index.html",
     "main.85f08cb8.css.map": "/urbanclap/my-app/static/css/main.85f08cb8.css.map",
-    "main.daad9bf6.js.map": "/urbanclap/my-app/static/js/main.daad9bf6.js.map",
+    "main.1390367f.js.map": "/urbanclap/my-app/static/js/main.1390367f.js.map",
     "156.6a35e1a0.chunk.js.map": "/urbanclap/my-app/static/js/156.6a35e1a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85f08cb8.css",
-    "static/js/main.daad9bf6.js"
+    "static/js/main.1390367f.js"
   ]
 }
