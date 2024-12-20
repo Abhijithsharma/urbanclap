@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/urbanclap/my-app/static/css/main.85f08cb8.css",
-    "main.js": "/urbanclap/my-app/static/js/main.1390367f.js",
-    "static/js/156.6a35e1a0.chunk.js": "/urbanclap/my-app/static/js/156.6a35e1a0.chunk.js",
-    "index.html": "/urbanclap/my-app/index.html",
-    "main.85f08cb8.css.map": "/urbanclap/my-app/static/css/main.85f08cb8.css.map",
-    "main.1390367f.js.map": "/urbanclap/my-app/static/js/main.1390367f.js.map",
-    "156.6a35e1a0.chunk.js.map": "/urbanclap/my-app/static/js/156.6a35e1a0.chunk.js.map"
+    "main.css": "/urbanclap/static/css/main.82ea0b40.css",
+    "main.js": "/urbanclap/static/js/main.ae7b6075.js",
+    "static/js/488.56e6ebaf.chunk.js": "/urbanclap/static/js/488.56e6ebaf.chunk.js",
+    "index.html": "/urbanclap/index.html",
+    "main.82ea0b40.css.map": "/urbanclap/static/css/main.82ea0b40.css.map",
+    "main.ae7b6075.js.map": "/urbanclap/static/js/main.ae7b6075.js.map",
+    "488.56e6ebaf.chunk.js.map": "/urbanclap/static/js/488.56e6ebaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85f08cb8.css",
-    "static/js/main.1390367f.js"
+    "static/css/main.82ea0b40.css",
+    "static/js/main.ae7b6075.js"
   ]
 }
