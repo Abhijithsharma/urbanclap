@@ -1,0 +1,106 @@
+/* Default styles */
+.elements {
+    margin-left: 70px;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.firstdiv, .seconddiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 60px;
+}
+
+i {
+    margin-right: 20px; /* Add space between the icon and the text */
+    font-size: 28px; /* Set a base font size for the icons */
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.caption {
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+/* For tablet and smaller screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .elements {
+        margin-left: 20px;
+    }
+    .firstdiv, .seconddiv {
+        flex-direction: row; /* Stack elements vertically */
+        align-items: center; /* Center-align on smaller screens */
+        margin-left: 0;
+    }
+    i {
+        margin: 10px 0; /* Adjust icon spacing for mobile */
+        font-size: 24px; /* Make icons slightly smaller */
+    }
+    .heading {
+        font-size: 18px; /* Adjust heading size */
+    }
+    .caption {
+        font-size: 12px; /* Adjust caption size for readability */
+    }
+}
+
+/* For mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .elements {
+        flex-direction: row; /* Stack the elements */
+        margin-left: 0; /* Remove left margin */
+        align-items: center; /* Center-align the elements */
+    }
+
+    .firstdiv, .seconddiv {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px; /* Space out the stacked items */
+    }
+
+    i {
+        font-size: 20px; /* Reduce icon size for smaller screens */
+        margin: 10px 0; /* Adjust margin for mobile */
+    }
+
+    .heading {
+        font-size: 16px; /* Smaller heading size on mobile */
+    }
+
+    .caption {
+        font-size: 12px; /* Adjust caption size */
+    }
+}
+
+/* For very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .elements {
+        display: flex;
+        flex-direction: row;
+        padding: 10px; /* Add some padding around the container */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .firstdiv, .seconddiv {
+        margin-bottom: 15px; /* Space out the elements */
+        align-items: center;
+    }
+
+    i {
+        font-size: 18px; /* Further reduce icon size for small screens */
+        margin: 8px 0; /* Reduce margin */
+    }
+
+    .heading {
+        font-size: 14px; /* Further reduce heading size */
+    }
+
+    .caption {
+        font-size: 10px; /* Make caption text smaller */
+    }
+}

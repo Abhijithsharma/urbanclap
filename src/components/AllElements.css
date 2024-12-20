@@ -1,0 +1,98 @@
+/* Default styles */
+.AllElementsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 86%;
+  height: auto;
+  margin-left: 60px;
+}
+
+.AllElements {
+  display: flex;
+  overflow: hidden;
+  gap: 20px; /* Add space between images */
+}
+
+.sideArrowButton {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outsideContainer {
+  margin: 30px 20px 0px 20px;
+}
+
+.headingText {
+  font-size: 30px;
+  margin: 60px 0 30px 110px;
+}
+
+/* Responsive Styles */
+
+/* For larger screens (default) */
+@media (max-width: 1200px) {
+  .AllElementsWrapper {
+    margin-left: 20px;
+  }
+  .sideArrowButton {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+}
+
+/* For medium-sized screens like tablets */
+@media (max-width: 900px) {
+  .AllElementsWrapper {
+    margin-left: 10px;
+  }
+  .sideArrowButton {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+/* For mobile screens (portrait) */
+@media (max-width: 600px) {
+  .AllElementsWrapper {
+    margin-left: 10px;
+    width: 100%;  /* Allow the container to fill the width */
+  }
+  .AllElements {
+    gap: 10px;  /* Decrease gap between items */
+  }
+  .sideArrowButton {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
+/* For very small mobile screens (portrait) */
+@media (max-width: 400px) {
+  .AllElementsWrapper {
+    margin-left: 10px;
+    padding: 0 10px; /* Add padding to prevent edge-clipping */
+  }
+  .sideArrowButton {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .AllElements {
+    gap: 5px; /* Further reduce the gap between items on smaller screens */
+  }
+  .headingText {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+}

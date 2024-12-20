@@ -1,0 +1,39 @@
+.components {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    flex-wrap: nowrap; /* No wrapping for main container */
+    align-items: center; /* Centers child elements horizontally */
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 16px; /* Optional: Adds some padding around */
+    width: 100%; /* Ensure full width for layout */
+}
+
+.serviceshead {
+    align-self: flex-start; /* Aligns the text to the left */
+    font-size: 20px;
+    margin-bottom: 16px; /* Space below the heading */
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.texth{
+    margin-top: 30px;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondDivision{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.text{
+    font-weight: 500;
+}

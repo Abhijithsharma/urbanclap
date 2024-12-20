@@ -1,0 +1,131 @@
+/* Default styles */
+.margininp {
+    margin-left: 70px;
+    width: 250px;
+}
+
+.margininp2 {
+    margin-left: 8px;
+    padding: 18px;
+    width: 250px;
+}
+
+.icons {
+    margin-left: 120px;
+    display: flex; /* Flexbox for icon layout */
+    align-items: center;
+}
+
+.icon {
+    margin: 20px;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 15px;
+    display: flex; /* Flexbox for layout control */
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Make the navbar sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Ensure it's above other elements */
+    background-color: white; /* Add background to prevent transparency */
+}
+
+/* Responsive adjustments */
+
+/* For tablets and smaller screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .margininp, .margininp2 {
+        width: 200px; /* Adjust input field width */
+        margin-left: 20px; /* Adjust left margin */
+    }
+    
+    .icons {
+        margin-left: 20px; /* Adjust icon margin */
+    }
+    
+    .icon {
+        margin: 15px; /* Adjust icon spacing */
+    }
+
+    .border {
+        padding: 12px; /* Adjust padding in borders */
+    }
+
+    /* Align the navbar items to the right */
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
+
+/* For mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .margininp, .margininp2 {
+        width: 180px; /* Further reduce input width */
+        margin-left: 10px; /* Adjust left margin for mobile */
+    }
+    
+    .icons {
+        margin-left: 10px; /* Adjust icon margin for mobile */
+    }
+
+    .icon {
+        margin: 10px; /* Smaller icon margin for mobile */
+    }
+
+    .border {
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    /* Stack the navbar items vertically */
+    .navbar-collapse {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+}
+
+/* For very small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .margininp, .margininp2 {
+        width: 100%; /* Make inputs full-width on small screens */
+        margin-left: 0; /* Remove left margin */
+    }
+    
+    .icons {
+        margin-left: 10px; /* Reduce icon margin */
+    }
+
+    .icon {
+        margin: 8px; /* Reduce icon margin on small screens */
+    }
+
+    .border {
+        padding: 8px; /* Reduce padding for small screens */
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .navbar-collapse {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+}
