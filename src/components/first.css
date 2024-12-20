@@ -1,0 +1,158 @@
+/* Default styles for container, text, and components */
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.firstDivision {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texth p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Services components container */
+.components {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.serviceshead {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Adjustments for individual services */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Second division (image) styles */
+.secondDivision img {
+    width: 100%;
+    max-width: 630px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+
+/* Responsive Styles */
+
+/* For medium screens like tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .firstDivision {
+        align-items: center;
+    }
+
+    .texth p {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .serviceshead {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .services {
+        justify-content: center;
+    }
+    
+    .secondDivision img {
+        width: 80%; /* Slightly smaller image */
+    }
+}
+
+/* For smaller screens like mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .texth p {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .components {
+        align-items: center;
+    }
+
+    .services {
+        justify-content: center;
+    }
+
+    .serviceshead {
+        font-size: 20px;
+    }
+
+    .secondDivision img {
+        width: 90%; /* Increase image width on small screens */
+    }
+
+    /* Optional: Hide secondDivision image on mobile screens */
+    .secondDivision img {
+        display: none;
+    }
+}
+
+/* For very small screens like phones (max-width: 480px) */
+@media (max-width: 480px) {
+    .texth p {
+        font-size: 24px;
+    }
+
+    .serviceshead {
+        font-size: 18px;
+    }
+
+    .services {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .secondDivision img {
+        width: 100%;
+        display: block; /* Display image on very small screens if necessary */
+    }
+
+    .components {
+        width: 100%;
+        align-items: center;
+    }
+
+    /* Adjust padding for the secondDivision */
+    .secondDivision {
+        padding: 0 10px;
+    }
+}
+
+/* Default styles for secondDivision image */
+.secondDivision img {
+    width: 100%;
+    max-width: 630px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+
+/* Responsive Styles for mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .secondDivision img {
+        display: none; /* Hide the image on smartphone screens */
+    }
+}
