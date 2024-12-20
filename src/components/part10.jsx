@@ -6,7 +6,7 @@ function All10() {
     <>
       <div className="Outer">
         <div className="logoHead">
-          <img src="/images/logo.png" alt="Logo" />
+          <img src="/urbanclap/images/logo.png" alt="Logo" />
         </div>
         <div className="option">
           <div className="div1">

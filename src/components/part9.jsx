@@ -4,10 +4,10 @@ import './AllElements.css';
 
 function All9() {
   const items = [
-    { text: 'Facial & Cleanup', imgSrc: '/images/imagemk1.png' },
-    { text: 'Waxing', imgSrc: '/images/imagemk2.png' },
-    { text: 'Pedicure', imgSrc: '/images/imagemk3.png' },
-    { text: 'Manicure', imgSrc: '/images/imagemk4.png' },
+    { text: 'Facial & Cleanup', imgSrc: '/urbanclap/images/imagemk1.png' },
+    { text: 'Waxing', imgSrc: '/urbanclap/images/imagemk2.png' },
+    { text: 'Pedicure', imgSrc: '/urbanclap/images/imagemk3.png' },
+    { text: 'Manicure', imgSrc: '/urbanclap/images/imagemk4.png' },
   ];
 
   const [startIndex, setStartIndex] = useState(0); // Track the starting index

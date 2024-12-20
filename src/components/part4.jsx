@@ -4,13 +4,13 @@ import './AllElements.css';
 
 function All4() {
   const items = [
-    { text: 'Facial & Cleanup', imgSrc: '/images/itemimg1.png' },
-    { text: 'Waxing', imgSrc: '/images/itemimg2.png' },
-    { text: 'Pedicure', imgSrc: '/images/itemimg3.png' },
-    { text: 'Manicure', imgSrc: '/images/itemimg4.png' },
-    { text: 'Hair care.', imgSrc: '/images/itemimg5.png' },
-    { text: 'Bleach & Detan', imgSrc: '/images/itemimg6.png' },
-    { text: 'Threading & Face Waxing', imgSrc: '/images/itemimg7.png' },
+    { text: 'Facial & Cleanup', imgSrc: '/urbanclap/images/itemimg1.png' },
+    { text: 'Waxing', imgSrc: '/urbanclap/images/itemimg2.png' },
+    { text: 'Pedicure', imgSrc: '/urbanclap/images/itemimg3.png' },
+    { text: 'Manicure', imgSrc: '/urbanclap/images/itemimg4.png' },
+    { text: 'Hair care.', imgSrc: '/urbanclap/images/itemimg5.png' },
+    { text: 'Bleach & Detan', imgSrc: '/urbanclap/images/itemimg6.png' },
+    { text: 'Threading & Face Waxing', imgSrc: '/urbanclap/images/itemimg7.png' },
   ];
 
   const [startIndex, setStartIndex] = useState(0); // Track the starting index

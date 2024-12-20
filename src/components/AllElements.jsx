@@ -4,13 +4,13 @@ import './AllElements.css';
 
 function AllElemnts() {
   const items = [
-    {  imgSrc: '/images/im1.png' },
-    {  imgSrc: '/images/im2.png' },
-    {  imgSrc: '/images/im3.png' },
-    {  imgSrc: '/images/im4.png' },
-    {  imgSrc: '/images/im5.png' },
-    {  imgSrc: '/images/im6.png' },
-    {  imgSrc: '/images/img7.png' },
+    {  imgSrc: '/urbanclap/images/im1.png' },
+    {  imgSrc: '/urbanclap/images/im2.png' },
+    {  imgSrc: '/urbanclap/images/im3.png' },
+    {  imgSrc: '/urbanclap/images/im4.png' },
+    {  imgSrc: '/urbanclap/images/im5.png' },
+    {  imgSrc: '/urbanclap/images/im6.png' },
+    {  imgSrc: '/urbanclap/images/img7.png' },
   ];
 
   const [startIndex, setStartIndex] = useState(0); // Track the starting index

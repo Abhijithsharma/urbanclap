@@ -4,9 +4,9 @@ import './part6.css';
 
 function All6() {
   const items = [
-    { text: 'Facial & Cleanup', imgSrc: '/images/imagec4.png' },
-    { text: 'Waxing', imgSrc: '/images/imagec2.png' },
-    { text: 'Pedicure', imgSrc: '/images/imagec3.png' },
+    { text: 'Facial & Cleanup', imgSrc: '/urbanclap/images/imagec4.png' },
+    { text: 'Waxing', imgSrc: '/urbanclap/images/imagec2.png' },
+    { text: 'Pedicure', imgSrc: '/urbanclap/images/imagec3.png' },
   ];
 
   const [startIndex, setStartIndex] = useState(0); // Track the starting index

@@ -4,13 +4,13 @@ import './AllElements.css';
 
 function All7() {
   const items = [
-    { text: 'Facial & Cleanup', imgSrc: '/images/imageac1.png' },
-    { text: 'Waxing', imgSrc: '/images/imageac2.png' },
-    { text: 'Pedicure', imgSrc: '/images/imageac3.png' },
-    { text: 'Manicure', imgSrc: '/images/imageac4.png' },
-    { text: 'Hair care', imgSrc: '/images/imageac5.png' },
-    { text: 'Bleach & Detan', imgSrc: '/images/imageac6.png' },
-    { text: 'Threading & Face Waxing', imgSrc: '/images/imageac7.png' },
+    { text: 'Facial & Cleanup', imgSrc: '/urbanclap/images/imageac1.png' },
+    { text: 'Waxing', imgSrc: '/urbanclap/images/imageac2.png' },
+    { text: 'Pedicure', imgSrc: '/urbanclap/images/imageac3.png' },
+    { text: 'Manicure', imgSrc: '/urbanclap/images/imageac4.png' },
+    { text: 'Hair care', imgSrc: '/urbanclap/images/imageac5.png' },
+    { text: 'Bleach & Detan', imgSrc: '/urbanclap/images/imageac6.png' },
+    { text: 'Threading & Face Waxing', imgSrc: '/urbanclap/images/imageac7.png' },
   ];
 
   const [startIndex, setStartIndex] = useState(0); // Track the starting index

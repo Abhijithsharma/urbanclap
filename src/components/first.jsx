@@ -5,13 +5,13 @@ import './first.css';
 function Main() {
     // Data array for images and texts
     const data = [
-        { image: '/images/type1.png', text: "Women's Salon & Spa" },
-        { image: '/images/type2.png', text: "Men's Salon & Massage" },
-        { image: '/images/type3.png', text: "AC & Appaliance Repair" },
-        { image: '/images/type4.png', text: "Cleaning" },
-        { image: '/images/type5.png', text: "Electrician, Plumber & Carpenter" },
-        { image: '/images/type6.png', text: "Native Water Purifier" },
-        { image: '/images/type7.png', text: "Painting & Waterproofing" },
+        { image: '/urbanclap/images/type1.png', text: "Women's Salon & Spa" },
+        { image: '/urbanclap/images/type2.png', text: "Men's Salon & Massage" },
+        { image: '/urbanclap/images/type3.png', text: "AC & Appaliance Repair" },
+        { image: '/urbanclap/images/type4.png', text: "Cleaning" },
+        { image: '/urbanclap/images/type5.png', text: "Electrician, Plumber & Carpenter" },
+        { image: '/urbanclap/images/type6.png', text: "Native Water Purifier" },
+        { image: '/urbanclap/images/type7.png', text: "Painting & Waterproofing" },
     ];
 
     return (
@@ -31,7 +31,7 @@ function Main() {
                     </div>
                 </div>
                 <div className='secondDivision'>
-                    <img src='/images/d2type1.png' alt="second section" />
+                    <img src='/urbanclap/images/d2type1.png' alt="second section" />
                 </div>
             </div>
         </>

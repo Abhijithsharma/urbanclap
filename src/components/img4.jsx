@@ -4,7 +4,7 @@ import './img.css';
 function Img() {
     return (
         <div className='OuterImg'>
-            <img src='/images/bigim5.png' alt="Responsive Image" />
+            <img src='/urbanclap/images/bigim5.png' alt="Responsive Image" />
         </div>
     );
 }

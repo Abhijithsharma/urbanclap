@@ -4,12 +4,12 @@ import './AllElements.css';
 
 function All8() {
   const items = [
-    { imgSrc: '/images/imagehc1.png', text: 'Wall Panels' },
-    { imgSrc: '/images/imagehc2.png', text: 'Native Water Purifier' },
-    { imgSrc: '/images/imagehc3.png', text: 'Bathroom & kitchen cleaning' },
-    { imgSrc: '/images/imagehc4.png', text: 'Full home painting' },
-    { imgSrc: '/images/ime5.png', text: 'Native Smart Locks' },
-    { imgSrc: '/images/ime6.png', text: 'Hair Studio for Women' }
+    { imgSrc: '/urbanclap/images/imagehc1.png', text: 'Wall Panels' },
+    { imgSrc: '/urbanclap/images/imagehc2.png', text: 'Native Water Purifier' },
+    { imgSrc: '/urbanclap/images/imagehc3.png', text: 'Bathroom & kitchen cleaning' },
+    { imgSrc: '/urbanclap/images/imagehc4.png', text: 'Full home painting' },
+    { imgSrc: '/urbanclap/images/ime5.png', text: 'Native Smart Locks' },
+    { imgSrc: '/urbanclap/images/ime6.png', text: 'Hair Studio for Women' }
   ];
 
   const [startIndex, setStartIndex] = useState(0); // Track the starting index
