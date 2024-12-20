@@ -8,7 +8,7 @@ function All4() {
     { text: 'Waxing', imgSrc: '/images/itemimg2.png' },
     { text: 'Pedicure', imgSrc: '/images/itemimg3.png' },
     { text: 'Manicure', imgSrc: '/images/itemimg4.png' },
-    { text: 'Hair care', imgSrc: '/images/itemimg5.png' },
+    { text: 'Hair care.', imgSrc: '/images/itemimg5.png' },
     { text: 'Bleach & Detan', imgSrc: '/images/itemimg6.png' },
     { text: 'Threading & Face Waxing', imgSrc: '/images/itemimg7.png' },
   ];
