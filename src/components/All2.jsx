@@ -7,7 +7,7 @@ function AllElemnts1() {
     { imgSrc: '/images/imi1.png', text: 'Wall Panels' },
     { imgSrc: '/images/imi2.png', text: 'Native Water Purifier' },
     { imgSrc: '/images/imi3.png', text: 'Bathroom & kitchen cleaning' },
-    { imgSrc: '/images/imi4.png', text: 'Full home painting' },
+    { imgSrc: '/images/imi4.png', text: 'Full home painting.' },
     { imgSrc: '/images/imi5.png', text: 'Native Smart Locks.' },
     { imgSrc: '/images/imi6.png', text: 'Hair Studio for Women' }
   ];
